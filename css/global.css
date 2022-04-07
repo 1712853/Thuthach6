@@ -1,12 +1,12 @@
 *
 {
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
 }
 body
 {
     margin: 0;
-    font-family: 'Poppins'; 
+    font-family: 'Poppins';
+    font-style: normal;
 }
 :root
 {
@@ -14,8 +14,8 @@ body
     --color2:#FE043C;
     --color3:#FFFFFF;
     --background_color:#FFF5EC;
-    
-    --fontsize1:72px;
+
+    --fontsize1:4.5rem;
     --fontsize2:48px;
     --fontsize3:36px;
     --fontsize4:24px;

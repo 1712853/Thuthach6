@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="./img/fontawesome-free-6.1.1-web/css/all.css">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/css1.css">
-    <link rel="stylesheet" href="./img/fontawesome-free-6.1.1-web/css/all.css">
+    
     
     
 </head>
 <body>
     <header>
         <div class="header__left">
-            <div>
+            <div class="header__left_top">
             <h3>expice</h3>
                 <nav>
                     <a href="#">Menu One</a>
@@ -24,23 +24,53 @@
                     <a href="#">Menu Four</a>
                 </nav>
             </div>
-            <h1>Food</h1>
-            <h2>Discover Restaurant
-                & Delicious Food</h2>
-            <input type="text" placeholder="search restaurant, food">
-            
-            <span>
-                <i class="fa-solid fa-location-dot"></i>
+
+            <div class="header__left_mid">
+                <h1>Food</h1>
+                <h2>Discover Restaurant
+                    & Delicious Food</h2>
+                <div class="search">
+                    <input type="text" placeholder="Search Restaurant, Food">
+                    <input type="submit" name="go" value="GO">
+                </div>
+            </div>
+
+
+            <div class="header__left_bottom">
+                <i class="fa-solid fa-location-dot header__bot--icon"></i>
                 <p>Rajshahi</p>
-            </span>
+            </div>
+
         </div>
+
+
         <div class="header__right">
-            <span>
-                <i class="fa-light fa-user"></i>
+
+            <div class="header__right_top">
+                <i class="fa-regular fa-user header__right--icon1" ></i>
                 <p>User</p>
-                <i class="fa-solid fa-angle-down"></i>
-            </span>
+                <i class="fa-solid fa-angle-down header__right--icon2"></i>
+            </div>
+
+            <div>
+                <img src="./img/—Pngtree—delicious food_568171 1.png" alt="" class="header__right--img1">
+                <img src="./img/—Pngtree—lettuce_1175257 1.png" alt="" class="header__right--img2">
+            </div>
+
+            <div class="header__right_bot">
+                
+                    <i class="fa-regular fa-circle header__right_bot--icon3"></i>
+                    <i class="fa-solid fa-arrow-left-long header__right_bot--icon1"></i>
+
+                
+
+                
+                    <i class="fa-solid fa-arrow-right-long header__right_bot--icon2"></i>
+                    <i class="fa-regular fa-circle header__right_bot--icon3"></i>
+                
+            </div>
         </div>
     </header>
 </body>
+
 </html>

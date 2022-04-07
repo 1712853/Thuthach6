@@ -1,0 +1,46 @@
+header
+{
+    display: flex;
+}
+.header__left
+{
+    width: 70%;
+    background-color: var(--background_color);
+    display: flex;
+    flex-wrap: wrap;
+}
+.header__left h3
+{
+    width: 40%;
+    color: var(--color2);
+    font-size: var(--fontsize1);
+}
+.header__left nav
+{
+    width: 60%;
+    display: flex;
+    color: var(--color1);
+} 
+.header__left h1
+{
+    --fontsizeh1:200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header__right
+{
+    width: 30%;
+    background-color: var(--color2);
+}

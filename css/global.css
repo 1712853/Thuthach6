@@ -1,0 +1,22 @@
+*
+{
+    box-sizing: border-box;
+    
+}
+body
+{
+    margin: 0;
+    font-family: 'Poppins'; 
+}
+:root
+{
+    --color1:#2E266F;
+    --color2:#FE043C;
+    --color3:#FFFFFF;
+    --background_color:#FFF5EC;
+    
+    --fontsize1:72px;
+    --fontsize2:48px;
+    --fontsize3:36px;
+    --fontsize4:24px;
+}

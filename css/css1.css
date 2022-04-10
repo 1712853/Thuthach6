@@ -1,3 +1,19 @@
+:root
+{
+    --color1:#2E266F;
+    --color2:#FE043C;
+    --color3:#FFFFFF;
+    --colorp:#707070;
+    --background_color:#FFF5EC;
+    --background_color2:#FFEDDE;
+    --fontsize1:4.5rem;
+    --fontsize2:2.9rem;
+    --fontsize3:36px;
+    --fontsize4:24px;
+}
+
+
+
 header
 {
     display: flex;
@@ -73,33 +89,24 @@ header
 
 }
 
-.header__left_mid input[type=text]
+.header__left_mid input[type=search]
 {
     width: 45%;
     padding: 1.5rem;
-    color: var(--color1);
-    border: 0rem;
-    outline: none;
+    
 }
 
-.header__left_mid input[type=text]::placeholder
-{
-    color: var(--color1);
-}
 
 .header__left_mid input[type=submit]
 {
     --fssubmit: 1.5rem;
     
     font-size: var(--fssubmit);
-    color: var(--color3);
-    background-color: var(--color2);
+    
     padding: 0.8rem 3.5rem;
     border-top-left-radius: 3rem;
-    border: 0rem;
-    text-align: center;
-    outline: none;
-    position: absolute;
+    
+    
     top: 50%;
     right: 55.5%;
     transform: translate(0, -50%);
@@ -122,6 +129,7 @@ header
 
 .header__left_bottom p
 {
+    color: var(--color3);
     margin: 0 0 0 1rem;
     font-size: var(--fsbotp);
 }
@@ -221,4 +229,560 @@ header
     font-size: var(--fshrbicon3);
     margin: 0 0.4rem;
     
+}
+
+#restaurant
+{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background_color);
+    padding-bottom: 4rem;
+}
+
+.restaurant__top
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.restaurant__top_item1
+{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.restaurant__top_item1 h3
+{
+    font-size: var(--fontsize2);
+    color: var(--color1);
+    margin-left: 2rem;
+
+}
+
+.top_column
+{
+    background-color: var(--color2);
+    width: 4%;
+    height: 8rem;
+
+}
+
+.restaurant__top_item2
+{
+   
+    width: 30%;
+    color: var(--colorp);
+}
+
+
+.restaurant__bottom
+{
+    display: flex;
+    margin: 5rem 0 6rem;
+}
+.restaurant__bottom_item
+{
+    background-image: url(../img/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 2rem;
+    padding-top: 22rem;
+    width: 35%;
+    color: var(--color3);
+    text-transform: capitalize;
+    
+}
+
+.restaurant__bottom_item--background
+{
+    --color2: hsla(347, 99%, 51%, 0.699);
+    padding: 3rem 0 3rem 4rem;
+    background-color: var(--color2);
+}
+
+.restaurant__bottom_item h4
+{
+    font-size: var(--fontsize4);
+    margin-top: 0;
+    
+}
+
+.restaurant__bottom_item p
+{
+    width: 75%;
+}
+
+.restaurant__bottom_item--background p
+{
+    color: var(--color3);
+}
+
+
+
+.restaurant__bottom_location
+{
+    display: flex;
+    align-items: center;
+}
+
+.restaurant__bottom_location p
+{
+    margin-left: 0.5rem;
+    margin-right: 0.8rem;
+    width: 67%;
+}
+
+.restaurant__bottom_location a
+{
+    padding: 1rem 3rem;
+    background-color: var(--color3);
+    color: var(--color2);
+    text-decoration: none;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    margin-top: 3rem;
+}
+
+.restaurant__bottom_item--1
+{
+    background-image: url(../img/Rectangle\ 7.png);
+    
+}
+
+.restaurant__bottom_item--2
+{
+    background-image: url(../img/Rectangle\ 7_2.png);
+    
+}
+
+.restaurant__bottom_rightIcon
+{
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+    color: var(--color2);
+    font-size: var(--fontsize3);
+}
+
+#booking
+{
+    
+    background-color: var(--background_color2);
+    padding: 13.3rem 20rem;
+    position: relative;
+
+}
+
+.booking__main
+{
+    background-color: var(--color3);
+    padding: 6rem 8rem;
+    text-align: center;
+    
+   
+   
+}
+
+.booking__main_item1
+{
+    margin-bottom: 2.5rem;
+}
+
+.booking__main h3
+{
+    color: var(--color1);
+    font-size: var(--fontsize3);
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+.top__row
+{
+    background-color: var(--color2);
+    width: 20%;
+    height: 1rem;
+    margin: auto;
+
+
+}
+
+.booking__main input[type=search]
+{
+    
+    width: 42%;
+    padding: 1.6rem;
+    border: 5px solid hsla(27, 100%, 94%, 0.205);
+}
+
+.booking__main input[type=submit]
+{
+    font-size: var(--fontsize4);
+    padding: 0.8rem 2rem;
+    top: 50%;
+    right: 29.7%;
+    transform: translate(0,-50%);
+}
+
+.booking__main_item2
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+
+.booking__main_item2-1
+{
+    padding: 1.5rem;
+    
+}
+
+.booking__main_item2-1a
+{
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 0.5rem;
+}
+
+.booking__main_item2-1a p
+{
+    color: var(--color1);
+    margin: 0 0.3rem 0.3rem 0;
+}
+
+.booking__main_icon
+{
+    font-size: 0.8rem;
+    color: var(--color2);
+}
+.booking_img1
+{
+    position: absolute;
+    width: 29.5%;
+    
+    top: -23.2%;
+    left: 0;
+
+}
+.booking_img2
+{
+    position: absolute;
+    
+    
+    top: 50%;
+    transform: translate(0,-50%);
+    right: 0;
+}
+
+
+
+#service
+{
+    padding: 7rem 5.5rem;
+    background-color: var(--background_color);
+}
+
+.service__top
+{
+    display: flex;
+    
+}
+.service__top_item1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.service__top_column
+{
+    background-color: var(--color2);
+    width: 6%;
+    height: 9rem;
+}
+
+.service__top h3
+{
+    color: var(--color1);
+    font-size: var(--fontsize2);
+
+}
+
+.service__top p
+{
+    width: 33%;
+    margin-left: 13rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 3.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#food
+{
+    background-color: var(--background_color);
+    padding: 8rem;
+
+}
+
+.food__top
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.food__top h3
+{
+    font-size: var(--fontsize2);
+    color: var(--color1);
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.food__top> p
+{
+  
+    width: 33%;
+    text-align: center;
+}
+
+.food__container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.food__item
+{
+    width: 31.5%;
+    background-color: white;
+    border-radius: 1.5rem;
+    margin-top: 3rem;
+
+}
+
+
+.food__item img
+{
+    width: 100%;
+    max-height: 24rem;
+}
+
+
+
+.food__item_bot
+{
+    display: flex;
+    
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.9rem;
+    
+    
+
+}
+
+.food__item_bot h4
+{
+    font-size: var(--fontsize4);
+    color: var(--color1);
+    width: 50%;
+    
+    margin: 0;
+}
+
+.food__item_bot h5
+{
+    font-size: var(--fontsize4);
+    color: var(--color2);
+    width: 50%;
+    text-align: right;
+  
+    margin: 0;
+}
+
+.food__item_bot p
+{
+
+    width: 65%;
+    
+    margin-bottom: 0;
+   
+}
+
+
+
+
+#download
+{
+    background-color: var(--background_color2);
+    padding: 5rem 8rem;
+    position: relative;
+}
+
+.download__main
+{
+    width: 30%;
+    margin: 15rem 0;
+}
+
+.download__main_top
+{
+    display: flex;
+    align-items: center;
+    
+}
+
+.download__main_top h3
+{
+    font-size: var(--fontsize2);
+    color: var(--color1);
+}
+
+.download__column
+{
+    width: 7%;
+    height: 8rem;
+    background-color: var(--color2);
+    margin-right: 2rem;
+}
+
+.download__main_bot
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: calc(5.5% + 2rem)
+}
+
+.download__main_bot>p
+{
+    margin-top: 0;
+    margin-bottom: 2.2rem;
+    text-transform: capitalize;
+}
+
+.download__main_bot a
+{
+    
+   
+    text-decoration: none;
+    
+}
+
+.download__area
+{
+    display: flex;
+    align-items: center;
+    padding: 0.4rem 0.9rem;
+    margin-right: 1.5rem;
+    background-color: black;
+    color: var(--color3);
+    border-radius: 0.5rem;
+
+    
+    
+}
+
+.download__area_icon
+{
+    font-size: 1.8rem;
+    margin-right: 0.7rem;
+}
+
+.download__area p
+{
+    color: var(--color3);
+    margin: 0.1rem;
+    
+}
+
+.download--smallp
+{
+    --smallp: 11px;
+    font-size: var(--smallp);
+}
+
+.download__img1
+{
+    position: absolute;
+    right: 17rem;
+    top: 11rem;
+}
+
+.download__img2
+{
+    width: 35rem;
+    position: absolute;
+    right: 11.8rem;
+    top: 2.18rem;
+    z-index: 2;
+}
+
+.download__img3
+{
+    width: 21.5rem;
+    position: absolute;
+    right: 15.43rem;
+    top: 6.3rem;
+    z-index: 3;
+
+}
+
+.download__img4
+{
+    width: 9.3rem;
+    position: absolute;
+    right: 21.52rem;
+    top: 5.64rem;
+    z-index: 4;
+}
+
+footer
+{
+    background-color: var(--background_color);
+    display: flex;
+    padding-top: 4rem;
+    padding-right: 3rem;
+}
+
+.footer__main
+{
+    margin-left: 6rem;
+    text-align: center;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer__main h3
+{
+    font-size: var(--fontsize2);
+    color: var(--color1);
+    text-transform: capitalize;
+    margin: 0;
+    
+}
+
+.footer__main p
+{
+    width: 60%;
+    margin: 2.5rem 0;
 }

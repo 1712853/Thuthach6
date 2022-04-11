@@ -284,23 +284,50 @@ header
 }
 .restaurant__bottom_item
 {
-    background-image: url(../img/Rectangle\ 7.png);
+    position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: 2rem;
     padding-top: 22rem;
-    width: 35%;
+    width: 36%;
     color: var(--color3);
     text-transform: capitalize;
+    border-radius: 1rem;
+
+  
     
 }
 
 .restaurant__bottom_item--background
 {
-    --color2: hsla(347, 99%, 51%, 0.699);
-    padding: 3rem 0 3rem 4rem;
+  
+ 
+    
+    opacity: 0.7;
     background-color: var(--color2);
+    
+    height: 19rem;
+    width: 100%;
+    min-height: 19rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+   
+    
+   
+    
 }
+.restaurant__bottom_item--content
+{
+    padding: 0 0 2rem 4rem;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
 
 .restaurant__bottom_item h4
 {
@@ -314,7 +341,7 @@ header
     width: 75%;
 }
 
-.restaurant__bottom_item--background p
+.restaurant__bottom_item--content p
 {
     color: var(--color3);
 }
@@ -331,7 +358,7 @@ header
 {
     margin-left: 0.5rem;
     margin-right: 0.8rem;
-    width: 67%;
+    width: 68%;
 }
 
 .restaurant__bottom_location a
